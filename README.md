@@ -10,18 +10,15 @@ Dashboard interactivo del clima con animaciones CSS puras que reaccionan al esta
 
 ## ✨ Características
 
-- 🎨 **Animaciones CSS puras** — sol girando, gotas de lluvia, copos de nieve, relámpagos
-- 🌈 **Fondos dinámicos** — el fondo cambia según el clima (soleado, lluvioso, nevado...)
-- 📍 **Búsqueda de ciudades** — cualquier ciudad del mundo via OpenWeather API
-- 📊 **Estadísticas completas** — temperatura, humedad, viento, visibilidad y presión
-- 📅 **Pronóstico 5 días** — íconos y temperaturas por día
-- 🌙 **Modo nocturno automático** — detecta la hora local y ajusta los íconos
-- 📱 **Responsive** — funciona en móvil y desktop
-- 🎮 **Modo demo** — prueba con ciudades preconfiguradas sin API key
+- 🎨 **Animaciones CSS puras** — sol girando, gotas de lluvia, copos de nieve, relámpagos.
+- 🌈 **Fondos dinámicos** — el fondo cambia según el clima.
+- 📍 **Búsqueda de ciudades** — cualquier ciudad del mundo via OpenWeather API.
+- 📊 **Estadísticas completas** — temperatura, humedad, viento, visibilidad y presión.
+- 🎮 **Modo demo** — prueba con ciudades preconfiguradas sin API key.
 
 ## 🚀 Demo
 
-> Prueba el proyecto en vivo: [Ver Demo](https://tu-usuario.github.io/dashboard-clima-animado)
+> Prueba el proyecto en vivo: [Ver Demo](https://STPL-TEAM.github.io/dashboard-clima-animado/)
 
 ![Screenshot del proyecto](screenshot.png)
 
@@ -38,65 +35,42 @@ Dashboard interactivo del clima con animaciones CSS puras que reaccionan al esta
 
 ### 1. Clona el repositorio
 ```bash
-git clone https://github.com/TU_USUARIO/dashboard-clima-animado.git
+git clone https://github.com/STPL-TEAM/dashboard-clima-animado.git
 cd dashboard-clima-animado
 ```
 
 ### 2. Obtén tu API key gratuita
 1. Ve a [openweathermap.org](https://openweathermap.org/api)
 2. Crea una cuenta gratuita
-3. Copia tu API key (1,000 llamadas gratis por día)
+3. Copia tu API key
 
 ### 3. Configura la API key
-Abre `index.html` y reemplaza en la línea ~200:
+Abre `script.js` y reemplaza:
 ```javascript
-const API_KEY = "TU_API_KEY_AQUI"; // <- pega tu key aquí
+const API_KEY = "TU_API_KEY_AQUI";
 ```
 
 ### 4. Abre en el navegador
 ```bash
-# Opción simple: abre index.html en tu navegador
-# Opción con servidor local:
 npx serve .
 ```
 
 ## 📁 Estructura del proyecto
 
-```
+```text
 dashboard-clima-animado/
-├── index.html          # Código principal (HTML + CSS + JS)
-├── README.md           # Este archivo
-├── screenshot.png      # Captura del proyecto
-└── .gitignore
+├── index.html
+├── estilos.css
+├── script.js
+└── README.md
 ```
-
-## 🌍 Ciudades de ejemplo (modo demo)
-
-| Ciudad | País | Condición |
-|---|---|---|
-| Cuenca | 🇪🇨 Ecuador | Parcialmente nublado |
-| Quito | 🇪🇨 Ecuador | Llovizna |
-| Miami | 🇺🇸 USA | Soleado |
-| Londres | 🇬🇧 UK | Lluvia |
-| Moscú | 🇷🇺 Rusia | Nevada |
-
-## 🔮 Próximas mejoras
-
-- [ ] Geolocalización automática
-- [ ] Modo oscuro/claro manual
-- [ ] Gráfica de temperatura por horas
-- [ ] Alertas de clima severo
-- [ ] PWA (instalar como app)
 
 ## 👨‍💻 Autor
 
 **Legend Fernandez**
-- GitHub: arifernandezn@gmail.com
+- GitHub: [STPL-TEAM](https://github.com/STPL-TEAM)
 - Universidad: UCACUE — Cuenca, Ecuador
 
 ## 📄 Licencia
 
 MIT License — libre para usar, modificar y distribuir.
-
----
-⭐ Si te gustó el proyecto, ¡dale una estrella en GitHub!
