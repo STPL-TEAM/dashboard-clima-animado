@@ -91,8 +91,8 @@ dashboard-clima-animado/
 ## 👨‍💻 Autor
 
 **Legend Fernandez**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Universidad: UDA — Cuenca, Ecuador
+- GitHub: arifernandezn@gmail.com
+- Universidad: UCACUE — Cuenca, Ecuador
 
 ## 📄 Licencia
 
