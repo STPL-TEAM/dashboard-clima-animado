@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard del Clima</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div class="buscador">
+    <input type="text" id="ciudad-input" placeholder="Busca una ciudad...">
+    <button id="btn-buscar">Buscar</button>
+  </div>
+
+  <div class="tarjeta">
+    <div class="icono-clima" id="icono-clima">☀️</div>
+    <h2 id="nombre-ciudad">Cuenca, EC</h2>
+    <p id="descripcion">Soleado</p>
+    <div class="temperatura">
+      <span id="numero">22</span>
+      <span class="unidad">°C</span>
+    </div>
+    <p id="sensacion">Sensación: 20°C</p>
+    <div class="estadisticas">
+      <div class="stat">
+        <span class="stat-titulo">💧 Humedad</span>
+        <span class="stat-valor" id="humedad">72%</span>
+      </div>
+      <div class="stat">
+        <span class="stat-titulo">💨 Viento</span>
+        <span class="stat-valor" id="viento">12 km/h</span>
+      </div>
+      <div class="stat">
+        <span class="stat-titulo">👁️ Visibilidad</span>
+        <span class="stat-valor" id="visibilidad">10 km</span>
+      </div>
+      <div class="stat">
+        <span class="stat-titulo">🌡️ Presión</span>
+        <span class="stat-valor" id="presion">1013 hPa</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

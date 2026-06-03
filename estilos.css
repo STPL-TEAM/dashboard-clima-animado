@@ -1,0 +1,140 @@
+/* ── RESET Y BASE ── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  padding: 2rem;
+}
+/* ── BUSCADOR ── */
+.buscador {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.buscador input {
+  padding: 0.8rem 1.2rem;
+  border-radius: 50px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.1);
+  color: white;
+  font-size: 1rem;
+  width: 280px;
+  outline: none;
+}
+
+.buscador input::placeholder {
+  color: rgba(255,255,255,0.5);
+}
+
+.buscador button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buscador button:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+/* ── TARJETA ── */
+.tarjeta {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 24px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  color: white;
+}
+
+/* ── ÍCONO ── */
+.icono-clima {
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ── CIUDAD Y DESCRIPCIÓN ── */
+.nombre-ciudad {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.descripcion {
+  color: rgba(255,255,255,0.7);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* ── TEMPERATURA ── */
+.temperatura {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.numero {
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.unidad {
+  font-size: 2rem;
+  color: rgba(255,255,255,0.7);
+  padding-top: 0.5rem;
+}
+
+.sensacion {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ── ESTADÍSTICAS ── */
+.estadisticas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.stat {
+  background: rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.stat-titulo {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.stat-valor {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
