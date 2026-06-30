@@ -10,17 +10,19 @@ Dashboard interactivo del clima con animaciones CSS puras que reaccionan al esta
 
 ## ✨ Características
 
-- 🎨 **Animaciones CSS puras** — sol girando, gotas de lluvia, copos de nieve, relámpagos.
-- 🌈 **Fondos dinámicos** — el fondo cambia según el clima.
-- 📍 **Búsqueda de ciudades** — cualquier ciudad del mundo via OpenWeather API.
-- 📊 **Estadísticas completas** — temperatura, humedad, viento, visibilidad y presión.
+-  **Animaciones CSS puras** — sol girando, gotas de lluvia, copos de nieve, relámpagos.
+-  **Fondos dinámicos** — el fondo cambia según el clima.
+-  **Búsqueda de ciudades** — cualquier ciudad del mundo via OpenWeather API.
+-  **Estadísticas completas** — temperatura, humedad, viento, visibilidad y presión.
 - 🎮 **Modo demo** — prueba con ciudades preconfiguradas sin API key.
 
-## 🚀 Demo
+##Demo
 
 > Prueba el proyecto en vivo: [Ver Demo](https://STPL-TEAM.github.io/dashboard-clima-animado/)
 
-![Screenshot del proyecto](screenshot.png)
+<img width="1767" height="917" alt="image" src="https://github.com/user-attachments/assets/3958e690-3ced-4408-880f-51618d3f5097" />
+
+
 
 ## 🛠️ Tecnologías
 
